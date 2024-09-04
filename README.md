@@ -1,4 +1,5 @@
-**Projeto de Teste A/B**
+**Projeto de Teste A/B**  
+
 Descrição
 Este projeto analisa um teste A/B realizado para avaliar a eficácia de duas estratégias de marketing em um aplicativo. O objetivo é determinar se há uma diferença significativa na conversão de usuários e na receita gerada entre os dois grupos de teste: Grupo A e Grupo B.
 
