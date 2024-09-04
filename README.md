@@ -44,6 +44,26 @@ Teste de Normalidade e Teste T:
 O teste de normalidade indicou que a receita dos usuários não segue uma distribuição normal.
 O teste t para comparar a receita entre os grupos A e B mostrou um p-valor de 0,5230, o que indica que a diferença observada na receita entre os grupos não é estatisticamente significativa.
 
+- Bibliotecas Utilizadas
+   
+**pandas:** *Manipulação e análise de dados.  
+Funções principais: pd.read_csv(), DataFrame.describe(), DataFrame.isnull()*
+
+**numpy:** *Operações numéricas e manipulação de arrays.  
+Funções principais: np.nan, np.corrcoef()*
+
+**matplotlib:** *Visualização de dados em gráficos e plots.  
+Funções principais: plt.hist(), plt.plot(), plt.show()*
+
+**seaborn:** *Visualização estatística baseada em matplotlib.  
+Funções principais: sns.heatmap(), sns.histplot(), sns.pairplot()*
+
+**scipy:** *Para realizar testes estatísticos.  
+Funções principais: scipy.stats.ttest_ind(), scipy.stats.chi2_contingency()*
+
+**statsmodels:** *Para modelagem estatística e testes A/B.  
+Funções principais: sm.Logit(), sm.OLS(), sm.stats.proportions_ztest()*
+
 - Conclusões
   
 *A análise revelou diferenças na proporção de usuários comuns entre os grupos e variações na receita média. No entanto, a falta de significância estatística na diferença de receita sugere que, embora existam variações, elas podem não ser suficientemente grandes para impactar a decisão de forma conclusiva.*
